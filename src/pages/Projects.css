@@ -1,0 +1,23 @@
+#projects {
+  font-size: 30px;
+  margin-bottom: 272px;
+}
+
+#projects-list {
+  display: flex;
+  justify-content: center;
+}
+
+#projects-list a {
+  border: 5px solid transparent;
+  border-image: linear-gradient(#E6DB74, #e6db7409, transparent);
+  border-image-slice: 1;
+  color: #E6DB74;
+  padding: 10px;
+  margin: 15px;
+}
+
+#projects-list p {
+  font-size: 15px;
+  font-weight: bold;
+}

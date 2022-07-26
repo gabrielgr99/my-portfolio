@@ -1,0 +1,54 @@
+#img-container {
+  display: flex;
+  margin: 40px 190px 200px;
+  justify-content: center;
+  border-right: 5px solid #fff;
+  animation: random-color 10s infinite alternate;
+}
+
+@keyframes random-color {
+  0% {
+    box-shadow: inset -70px 0px 30px -70px #31f8ff;
+  }
+  10% {
+    box-shadow: inset -65px 0px 30px -70px #30ffff8e;
+  }
+  20% {
+    box-shadow: inset -65px 0px 30px -70px #2dff2d;
+  }
+  30% {
+    box-shadow: inset -70px 0px 30px -70px #2eff2e83;
+  }
+  40% {
+    box-shadow: inset -65px 0px 30px -70px #fbff2c;
+  }
+  50% {
+    box-shadow: inset -65px 0px 30px -70px #fbff2988;
+  }
+  60% {
+    box-shadow: inset -70px 0px 30px -70px #ff0000;
+  }
+  70% {
+    box-shadow: inset -65px 0px 30px -70px #ff00008c;
+  }
+  80% {
+    box-shadow: inset -70px 0px 30px -70px #ff00c8;
+  }
+  90% {
+    box-shadow: inset -65px 0px 30px -70px #ff00c88a;
+  }
+  100% {
+    box-shadow: inset -65px 0px 30px -70px #31f8ff;
+  }
+}
+
+#img-perfil {
+  border-radius: 5%;
+  padding-top: 10px;
+}
+
+.about {
+  font-size: 25px;
+  line-height: 45px;
+  padding-left: 35px;
+}
