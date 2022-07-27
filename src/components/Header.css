@@ -29,7 +29,7 @@ p a {
   border-bottom: 2px solid #fff;
 }
 
-a:hover {
+p a:hover {
   padding-left: 130px;
   color: #fff;
 }
