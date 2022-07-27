@@ -1,6 +1,6 @@
 #img-container {
   display: flex;
-  margin: 40px 190px 200px;
+  margin: 40px 180px 200px;
   justify-content: center;
   border-right: 5px solid #fff;
   animation: random-color 10s infinite alternate;
@@ -51,4 +51,18 @@
   font-size: 25px;
   line-height: 45px;
   padding-left: 35px;
+  width: 800px;
+}
+
+#my-name {
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+  padding: 62px 0;
+}
+
+.about:last-child {
+  font-size: 20px;
+  text-align: justify;
+  padding-top: 10px;
 }

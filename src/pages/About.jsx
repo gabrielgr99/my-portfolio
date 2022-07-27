@@ -10,10 +10,12 @@ export default function About() {
       <article id="img-container">
         <img id="img-perfil" src={ perfilImage } alt="Imagem de perfil" height="350" />
         <section>
-          <p className="about">Eu sou Gabriel</p>
-          <p className="about">Tenho 22 anos</p>
-          <p className="about">Nasci em Uberlândia - Minas Gerais</p>
-          <p className="about">Atualmente estou me formando em Engenharia Ambiental e estudando Desenvolvimento Web</p>
+          <p className="about">Olá, me chamo</p>
+          <p className="about" id="my-name">Gabriel Gomes Rodrigues</p>
+          <p className="about">Tenho 22 anos, sou desenvolvedor Front-End, moro em Uberlândia - MG e
+            atualmente estou me formando em Engenharia Ambiental, e estudando
+            Desenvolvimento Web na Trybe para me tornar um desenvolvedor Full Stack.
+          </p>
         </section>
       </article>
       <Footer />

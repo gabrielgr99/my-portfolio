@@ -8,7 +8,7 @@ header nav {
   padding-top: 37px;
 }
 
-header nav p a {
+p a {
   display: inline-block;
   padding: 5px 10px 5px 5px;
   background-color: #86dd15;
@@ -29,7 +29,7 @@ header nav p a {
   border-bottom: 2px solid #fff;
 }
 
-header nav a:hover {
+a:hover {
   padding-left: 130px;
   color: #fff;
 }

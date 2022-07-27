@@ -2,10 +2,10 @@ import "./Footer.css";
 
 export default function Footer() {
   const linkedinLogo = "https://img.icons8.com/color/48/undefined/linkedin.png";
-  const githubLogo = "https://img.icons8.com/material-rounded/24/undefined/github.png";
+  const githubLogo = "https://img.icons8.com/ios/50/FFFFFF/github--v1.png";
   return (
     <footer id="footer-content">
-      <p>Powered by <strong>Gabriel Gomes Rodrigues</strong></p>
+      <p>Feito por <strong>Gabriel Gomes Rodrigues</strong></p>
       <section>
         <a href="https://br.linkedin.com/in/gabrielgr" target="_blanked">
           <img width="30px" alt="Logo linkedin" src={ linkedinLogo } />
