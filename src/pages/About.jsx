@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import perfilImage from "../images/perfil-image.jpeg";
+import perfilImage from "../images/perfil-image-removebg.png";
 import "./About.css";
 
 export default function About() {
