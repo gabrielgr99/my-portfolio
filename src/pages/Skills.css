@@ -8,15 +8,165 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  width: 70%;
+  width: 75%;
   margin-bottom: 170px;
 }
 
 #section-pictures div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
   padding: 10px;
   margin: 25px;
   text-align: center;
   font-size: 20px;
+  width: 150px;
+  height: 200px;
+  /* border: 2px solid rgba(255, 255, 255, 0.671); */
+  border-radius: 5px;
+}
+
+#section-pictures div:hover {
+  animation: random-color-out 10s infinite alternate;
+  transform: scale(1.1);
+  transition: transform 1s;
+  border: 2px solid #fff;
+  margin: 23px;
+  background-color: rgba(255, 255, 255, 0.068);
+  color: #fff;
+}
+
+#section-pictures div img:hover {
+  animation: float-image 3s infinite;
+}
+
+@keyframes float-image {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-5px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes random-color-in {
+  0% {
+    /* box-shadow: 0px 0px 30px 0px #31f8ff; */
+    box-shadow: inset 0px 0px 30px 0px #31f8ff;
+    /* border-color: #31f8ff; */
+  }
+  10% {
+    /* box-shadow: 0px 0px 30px 0px #30ffff8e; */
+    box-shadow: inset 0px 0px 30px 0px #30ffff8e;
+    /* border-color: #30ffff8e; */
+  }
+  20% {
+    /* box-shadow: 0px 0px 30px 0px #2dff2d; */
+    box-shadow: inset 0px 0px 30px 0px #2dff2d;
+    /* border-color: #2dff2d; */
+  }
+  30% {
+    /* box-shadow: 0px 0px 30px 0px #2eff2e83; */
+    box-shadow: inset 0px 0px 30px 0px #2eff2e83;
+    /* border-color: #2eff2e83; */
+  }
+  40% {
+    /* box-shadow: 0px 0px 30px 0px #fbff2c; */
+    box-shadow: inset 0px 0px 30px 0px #fbff2c;
+    /* border-color: #fbff2c; */
+  }
+  50% {
+    /* box-shadow: 0px 0px 30px 0px #fbff2988; */
+    box-shadow: inset 0px 0px 30px 0px #fbff2988;
+    /* border-color: #fbff2988; */
+  }
+  60% {
+    /* box-shadow: 0px 0px 30px 0px #ff0000; */
+    box-shadow: inset 0px 0px 30px 0px #ff0000;
+    /* border-color: #ff0000; */
+  }
+  70% {
+    /* box-shadow: 0px 0px 30px 0px #ff00008c; */
+    box-shadow: inset 0px 0px 30px 0px #ff00008c;
+    /* border-color: #ff00008c; */
+  }
+  80% {
+    /* box-shadow: 0px 0px 30px 0px #ff00c8; */
+    box-shadow: inset 0px 0px 30px 0px #ff00c8;
+    /* border-color: #ff00c8; */
+  }
+  90% {
+    /* box-shadow: 0px 0px 30px 0px #ff00c88a; */
+    box-shadow: inset 0px 0px 30px 0px #ff00c88a;
+    /* border-color: #ff00c88a; */
+  }
+  100% {
+    /* box-shadow: 0px 0px 30px 0px #31f8ff; */
+    box-shadow: inset 0px 0px 30px 0px #31f8ff;
+    /* border-color: #31f8ff; */
+  }
+}
+
+@keyframes random-color-out {
+  0% {
+    box-shadow: 0px 0px 30px 0px #31f8ff;
+    /* box-shadow: inset 0px 0px 30px 0px #31f8ff; */
+    /* border-color: #31f8ff; */
+  }
+  10% {
+    box-shadow: 0px 0px 30px 0px #30ffff8e;
+    /* box-shadow: inset 0px 0px 30px 0px #30ffff8e; */
+    /* border-color: #30ffff8e; */
+  }
+  20% {
+    box-shadow: 0px 0px 30px 0px #2dff2d;
+    /* box-shadow: inset 0px 0px 30px 0px #2dff2d; */
+    /* border-color: #2dff2d; */
+  }
+  30% {
+    box-shadow: 0px 0px 30px 0px #2eff2e83;
+    /* box-shadow: inset 0px 0px 30px 0px #2eff2e83; */
+    /* border-color: #2eff2e83; */
+  }
+  40% {
+    box-shadow: 0px 0px 30px 0px #fbff2c;
+    /* box-shadow: inset 0px 0px 30px 0px #fbff2c; */
+    /* border-color: #fbff2c; */
+  }
+  50% {
+    box-shadow: 0px 0px 30px 0px #fbff2988;
+    /* box-shadow: inset 0px 0px 30px 0px #fbff2988; */
+    /* border-color: #fbff2988; */
+  }
+  60% {
+    box-shadow: 0px 0px 30px 0px #ff0000;
+    /* box-shadow: inset 0px 0px 30px 0px #ff0000; */
+    /* border-color: #ff0000; */
+  }
+  70% {
+    box-shadow: 0px 0px 30px 0px #ff00008c;
+    /* box-shadow: inset 0px 0px 30px 0px #ff00008c; */
+    /* border-color: #ff00008c; */
+  }
+  80% {
+    box-shadow: 0px 0px 30px 0px #ff00c8;
+    /* box-shadow: inset 0px 0px 30px 0px #ff00c8; */
+    /* border-color: #ff00c8; */
+  }
+  90% {
+    box-shadow: 0px 0px 30px 0px #ff00c88a;
+    /* box-shadow: inset 0px 0px 30px 0px #ff00c88a; */
+    /* border-color: #ff00c88a; */
+  }
+  100% {
+    box-shadow: 0px 0px 30px 0px #31f8ff;
+    /* box-shadow: inset 0px 0px 30px 0px #31f8ff; */
+    /* border-color: #31f8ff; */
+  }
 }
 
 .gallery-img {

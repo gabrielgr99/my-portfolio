@@ -18,40 +18,40 @@ export default function Skills() {
       <article id="pictures-learn">
         <section id="section-pictures">
           <div>
-            <h4>CSS</h4>
             <img className="gallery-img" alt="Logo CSS" src={ cssLogo } />
+            <h4>CSS</h4>
           </div>
           <div>
-            <h4>HTML</h4>
             <img className="gallery-img" alt="Logo HTML" src={ htmlLogo } />
+            <h4>HTML</h4>
           </div>
           <div>
-            <h4>JAVASCRIPT {"(APIs)"}</h4>
             <img className="gallery-img" alt="Logo JavaScript" src={ javaScriptLogo } />
+            <h4>JAVASCRIPT {"(APIs)"}</h4>
           </div>
           <div>
-            <h4>JSON</h4>
             <img className="gallery-img" alt="Logo JSON" src={ jsonLogo } />
+            <h4>JSON</h4>
           </div>
           <div>
-            <h4>PYTHON</h4>
             <img className="gallery-img" alt="Logo Python" src={ pythonLogo } />
+            <h4>PYTHON</h4>
           </div>
           <div>
-            <h4>REACT {"(Hooks, Context API)"}</h4>
             <img className="gallery-img" alt="Logo Python" src={ reactLogo } />
+            <h4>REACT {"(Hooks, Context API)"}</h4>
           </div>
           <div>
-            <h4>REDUX</h4>
             <img className="gallery-img" alt="Logo Python" src={ reduxLogo } />
+            <h4>REDUX</h4>
           </div>
           <div>
-            <h4>REACT TESTING LIBRARY</h4>
             <img className="gallery-img" alt="Logo Python" src={ rtlLogo} />
+            <h4>REACT TESTING LIBRARY</h4>
           </div>
           <div>
-            <h4>JEST</h4>
             <img className="gallery-img" alt="Logo Python" src={ jestLogo } />
+            <h4>JEST</h4>
           </div>
         </section>
       </article>
