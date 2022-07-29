@@ -23,8 +23,13 @@
   font-size: 20px;
   width: 150px;
   height: 200px;
-  /* border: 2px solid rgba(255, 255, 255, 0.671); */
   border-radius: 5px;
+  color: transparent;
+}
+
+#section-pictures div img {
+  width: 100px;
+  filter: drop-shadow(0 0 5px white);
 }
 
 #section-pictures div:hover {
@@ -37,8 +42,10 @@
   color: #fff;
 }
 
-#section-pictures div img:hover {
+#section-pictures div:hover img {
   animation: float-image 3s infinite;
+  transition: filter 1s;
+  filter: none;
 }
 
 @keyframes float-image {
@@ -113,62 +120,58 @@
 
 @keyframes random-color-out {
   0% {
-    box-shadow: 0px 0px 30px 0px #31f8ff;
+    box-shadow: 0px 0px 30px 0px #31f8ff, inset 0px 0px 30px 0px #31f8ff;
     /* box-shadow: inset 0px 0px 30px 0px #31f8ff; */
     /* border-color: #31f8ff; */
   }
   10% {
-    box-shadow: 0px 0px 30px 0px #30ffff8e;
+    box-shadow: 0px 0px 30px 0px #30ffff8e, inset 0px 0px 30px 0px #30ffff8e;
     /* box-shadow: inset 0px 0px 30px 0px #30ffff8e; */
     /* border-color: #30ffff8e; */
   }
   20% {
-    box-shadow: 0px 0px 30px 0px #2dff2d;
+    box-shadow: 0px 0px 30px 0px #2dff2d, inset 0px 0px 30px 0px #2dff2d;
     /* box-shadow: inset 0px 0px 30px 0px #2dff2d; */
     /* border-color: #2dff2d; */
   }
   30% {
-    box-shadow: 0px 0px 30px 0px #2eff2e83;
+    box-shadow: 0px 0px 30px 0px #2eff2e83, inset 0px 0px 30px 0px #2eff2e83;
     /* box-shadow: inset 0px 0px 30px 0px #2eff2e83; */
     /* border-color: #2eff2e83; */
   }
   40% {
-    box-shadow: 0px 0px 30px 0px #fbff2c;
+    box-shadow: 0px 0px 30px 0px #fbff2c, inset 0px 0px 30px 0px #fbff2c;
     /* box-shadow: inset 0px 0px 30px 0px #fbff2c; */
     /* border-color: #fbff2c; */
   }
   50% {
-    box-shadow: 0px 0px 30px 0px #fbff2988;
+    box-shadow: 0px 0px 30px 0px #fbff2988, inset 0px 0px 30px 0px #fbff2988;
     /* box-shadow: inset 0px 0px 30px 0px #fbff2988; */
     /* border-color: #fbff2988; */
   }
   60% {
-    box-shadow: 0px 0px 30px 0px #ff0000;
+    box-shadow: 0px 0px 30px 0px #ff0000, inset 0px 0px 30px 0px #ff0000;
     /* box-shadow: inset 0px 0px 30px 0px #ff0000; */
     /* border-color: #ff0000; */
   }
   70% {
-    box-shadow: 0px 0px 30px 0px #ff00008c;
+    box-shadow: 0px 0px 30px 0px #ff00008c, inset 0px 0px 30px 0px #ff00008c;
     /* box-shadow: inset 0px 0px 30px 0px #ff00008c; */
     /* border-color: #ff00008c; */
   }
   80% {
-    box-shadow: 0px 0px 30px 0px #ff00c8;
+    box-shadow: 0px 0px 30px 0px #ff00c8, inset 0px 0px 30px 0px #ff00c8;
     /* box-shadow: inset 0px 0px 30px 0px #ff00c8; */
     /* border-color: #ff00c8; */
   }
   90% {
-    box-shadow: 0px 0px 30px 0px #ff00c88a;
+    box-shadow: 0px 0px 30px 0px #ff00c88a, inset 0px 0px 30px 0px #ff00c88a;
     /* box-shadow: inset 0px 0px 30px 0px #ff00c88a; */
     /* border-color: #ff00c88a; */
   }
   100% {
-    box-shadow: 0px 0px 30px 0px #31f8ff;
+    box-shadow: 0px 0px 30px 0px #31f8ff, inset 0px 0px 30px 0px #31f8ff;
     /* box-shadow: inset 0px 0px 30px 0px #31f8ff; */
     /* border-color: #31f8ff; */
   }
-}
-
-.gallery-img {
-  width: 100px;
 }
