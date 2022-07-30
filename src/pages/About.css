@@ -3,10 +3,10 @@
   margin: 40px 180px 200px;
   justify-content: center;
   border-right: 5px solid #fff;
-  animation: random-color 10s infinite alternate;
+  animation: random-color-in 10s infinite alternate;
 }
 
-@keyframes random-color {
+@keyframes random-color-in {
   0% {
     box-shadow: inset -70px 0px 30px -70px #31f8ff;
   }
