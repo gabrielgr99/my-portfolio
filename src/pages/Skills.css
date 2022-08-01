@@ -30,7 +30,6 @@
 
 #section-pictures div img {
   width: 100px;
-  filter: drop-shadow(0 0 5px white);
 }
 
 #section-pictures div:hover {
@@ -45,8 +44,6 @@
 
 #section-pictures div:hover img {
   animation: float-image 3s infinite;
-  transition: filter 1s;
-  filter: none;
 }
 
 @keyframes float-image {
