@@ -4,6 +4,7 @@ import "./Header.css";
 export default function Header() {
   return (
     <header>
+      <div id="arrow-polygon"></div>
       <nav>
         <p><Link id="tag-about" to="/" >Sobre</Link></p>
         <p><Link to="/skills" >Skills</Link></p>
