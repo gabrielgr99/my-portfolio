@@ -1,6 +1,8 @@
 #img-container {
   display: flex;
-  margin: 40px 180px 200px;
+  width: 80%;
+  margin-inline: auto;
+  margin-bottom: 86px;
   justify-content: center;
   border-right: 5px solid #fff;
   animation: random-color-in 10s infinite alternate;
@@ -50,7 +52,7 @@
   font-size: 20px;
   line-height: 35px;
   padding-left: 35px;
-  width: 800px;
+  width: 90%;
 }
 
 #my-name {
