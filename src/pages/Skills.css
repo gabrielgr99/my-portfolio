@@ -1,15 +1,41 @@
 #pictures-learn {
   display: flex;
   justify-content: center;
-  padding-bottom: 4px;
 }
 
 #section-pictures {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  align-items: center;
+  height: 380px;
+  padding-inline: 25px;
   width: 75%;
-  margin-bottom: 170px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: wrap;
+}
+
+#section-pictures::-webkit-scrollbar {
+  background-color: rgba(255, 255, 255, 0);
+  height: 6px;
+  border-radius: 5px;
+}
+
+#section-pictures:hover::-webkit-scrollbar {
+  background-color: rgba(255, 255, 255, 0.11);
+  height: 6px;
+}
+
+#section-pictures:hover::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+}
+
+#section-pictures::-webkit-scrollbar:active {
+  background-color: rgba(255, 255, 255, 0.322);
+}
+
+#section-pictures::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 5px;
 }
 
 #section-pictures div {
@@ -21,7 +47,6 @@
   margin: 25px;
   text-align: center;
   font-size: 20px;
-  width: 150px;
   height: 200px;
   border-radius: 5px;
   color: transparent;
@@ -30,6 +55,11 @@
 
 #section-pictures div img {
   width: 100px;
+}
+
+#section-pictures div h4 {
+  width: 150px;
+  height: 50px;
 }
 
 #section-pictures div:hover {
