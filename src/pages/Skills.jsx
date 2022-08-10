@@ -23,7 +23,7 @@ export default function Skills() {
           </div>
           <div>
             <img className="gallery-img" alt="Logo HTML" src={ htmlLogo } />
-            <h4>HTML</h4>
+            <h4>HTML {"(Responsivo, Semântico)"}</h4>
           </div>
           <div>
             <img className="gallery-img" alt="Logo JavaScript" src={ javaScriptLogo } />
