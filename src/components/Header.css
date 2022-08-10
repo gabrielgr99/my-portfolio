@@ -19,7 +19,7 @@ p a {
   font-weight: bold;
   width: 100px;
   height: 25px;
-  transform: translateX(-115px);
+  transform: translateX(-95px);
   transition: 0.8s;
 }
 

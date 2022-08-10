@@ -3,11 +3,28 @@
   padding: 0;
 }
 
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#root::before {
+  position: absolute;
+  z-index: 0;
+  content: '';
+  width: 20px;
+  height: 100%;
+  background-color: #86dd15;
+}
+
 #root {
   color: #c7c7c7;
   background-image: linear-gradient(rgb(29, 29, 29), rgb(15, 15, 15), rgb(0, 0, 0));
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: monospace;
-  border-left: 20px solid #86dd15;
+  height: 100%;
 }
