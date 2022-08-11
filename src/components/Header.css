@@ -10,7 +10,7 @@ header nav {
   width: 200px;
 }
 
-p a {
+.link {
   display: flex;
   padding: 5px 10px 5px 5px;
   background-color: #86dd15;

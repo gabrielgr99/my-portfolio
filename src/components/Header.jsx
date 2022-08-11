@@ -6,10 +6,10 @@ export default function Header() {
     <header>
       <div id="arrow-polygon"></div>
       <nav>
-        <p><Link id="tag-about" to="/" >Sobre</Link></p>
-        <p><Link to="/skills" >Skills</Link></p>
-        <p><Link to="/projects" >Projetos</Link></p>
-        <p><Link id="tag-warning" to="/warning" >Aviso</Link></p>
+        <p><Link id="tag-about" to="/" className="link" >Sobre</Link></p>
+        <p><Link to="/skills" className="link" >Skills</Link></p>
+        <p><Link to="/projects" className="link" >Projetos</Link></p>
+        <p><Link id="tag-warning" to="/warning" className="link" >Aviso</Link></p>
       </nav>
     </header>
   )

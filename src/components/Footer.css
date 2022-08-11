@@ -3,9 +3,18 @@
   bottom: 0;
   width: 100%;
   text-align: center;
-  color: #A6E22E;
+  color: #fff;
+  font-style: italic;
 }
 
-#footer-content p {
-  font-style: italic;
+#footer-content section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#icon-reference a {
+  padding-left: 8px;
+  color: inherit;
+  font-weight: bold;
 }
