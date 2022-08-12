@@ -2,7 +2,6 @@
   display: flex;
   width: 1200px;
   margin-inline: auto;
-  /* margin-bottom: 86px; */
   justify-content: center;
   border-right: 5px solid #fff;
   animation: random-color-in 10s infinite alternate;
