@@ -11,7 +11,7 @@ export default function Projects() {
       <article>
         <section id="projects">
           <section id="projects-list">
-            <a href="https://gabrielgr99.github.io/projects/pixels-art" target="_blanked">
+            <a href="https://pixels-art-project.vercel.app/" target="_blanked">
               <h4>Pixel Art</h4>
               <img src={ pixelArt } alt="Logo pixel art" width="150px" />
               <p>HTML</p>
