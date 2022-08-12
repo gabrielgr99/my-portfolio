@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+*::selection {
+  background: rgb(255, 255, 255);
+  color: #000000;
+}
+
 html {
   height: 100%;
 }
