@@ -18,7 +18,7 @@ export default function Projects() {
               <p>CSS</p>
               <p>JavaScript</p>
             </a>
-            <a href="https://gabrielgr99.github.io/projects/todo-list" target="_blanked">
+            <a href="https://to-do-list-beta-wheat.vercel.app/" target="_blanked">
               <h4>To-Do List</h4>
               <img src={ toDoList } alt="Logo to do list" width="150px" />
               <p>HTML</p>
