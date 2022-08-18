@@ -9,7 +9,7 @@ export default function Header() {
         <p><Link id="tag-about" to="/" className="link" >Sobre</Link></p>
         <p><Link to="/skills" className="link" >Skills</Link></p>
         <p><Link to="/projects" className="link" >Projetos</Link></p>
-        <p><Link id="tag-warning" to="/warning" className="link" >Aviso</Link></p>
+        <p><Link id="tag-contact" to="/contact" className="link" >Contato</Link></p>
       </nav>
     </header>
   )

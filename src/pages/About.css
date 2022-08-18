@@ -59,8 +59,8 @@
   font-size: 40px;
   padding-bottom: 10px;
   width: max-content;
-  animation: blinkingCursor 550ms 4.7s 11 alternate forwards,
-  typing 4s steps(23) normal both;
+  animation: blinkingCursor 550ms 5.7s 11 alternate forwards,
+  typing 4s 1s steps(23) normal both;
   border-right: 2px solid;
   overflow: hidden;
   white-space: nowrap;
