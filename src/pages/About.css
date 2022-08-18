@@ -3,7 +3,7 @@
   width: 1200px;
   margin-inline: auto;
   justify-content: center;
-  border-right: 5px solid #fff;
+  border-right: 3px solid #fff;
   animation: random-color-in 10s infinite alternate;
 }
 
@@ -58,6 +58,30 @@
   font-weight: bold;
   font-size: 40px;
   padding-bottom: 10px;
+  width: max-content;
+  animation: blinkingCursor 550ms 4.7s 11 alternate forwards,
+  typing 4s steps(23) normal both;
+  border-right: 2px solid;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@keyframes blinkingCursor {
+  from {
+    border-color: #fff;
+  }
+  to {
+    border-color: transparent;
+  }
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 554px;
+  }
 }
 
 .about:last-child {
