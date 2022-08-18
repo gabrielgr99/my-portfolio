@@ -8,24 +8,28 @@ export default function Projects() {
   return (
     <div>
       <Header />
-      <article>
-        <section id="projects">
-          <section id="projects-list">
-            <a href="https://pixels-art-project.vercel.app/" target="_blanked">
+      <article id="project-list">
+        <section className="project-container">
+          <a className="project-item" href="https://pixels-art-project.vercel.app/" target="_blanked">
+            <section>
               <h4>Pixel Art</h4>
               <img src={ pixelArt } alt="Logo pixel art" width="150px" />
               <p>HTML</p>
               <p>CSS</p>
               <p>JavaScript</p>
-            </a>
-            <a href="https://to-do-list-beta-wheat.vercel.app/" target="_blanked">
+            </section>
+          </a>
+        </section>
+        <section className="project-container">
+          <a className="project-item" href="https://to-do-list-beta-wheat.vercel.app/" target="_blanked">
+            <section>
               <h4>To-Do List</h4>
               <img src={ toDoList } alt="Logo to do list" width="150px" />
               <p>HTML</p>
               <p>CSS</p>
               <p>JavaScript</p>
-            </a>
-          </section>
+            </section>
+          </a>
         </section>
       </article>
       <Footer />
