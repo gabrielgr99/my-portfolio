@@ -11,12 +11,12 @@ import rtlLogo from "../images/rtl-logo.png";
 import jestLogo from "../images/jest-logo.png";
 import "./Skills.css";
 
-export default function Skills() {
+export default function Skills({ value }) {
   return (
     <div>
       <Header />
       <article id="pictures-learn">
-        <section id="section-pictures">
+        <section className={`section-pictures section-pictures-${value}`}>
           <div>
             <img className="gallery-img" alt="Logo CSS" src={ cssLogo } />
             <h4>CSS</h4>

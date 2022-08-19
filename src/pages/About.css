@@ -1,10 +1,15 @@
-#img-container {
+.img-container {
   display: flex;
   width: 1200px;
   margin-inline: auto;
   justify-content: center;
   border-right: 3px solid #fff;
   animation: random-color-in 10s infinite alternate;
+}
+
+.img-container-light {
+  border-right-color: #000000;
+  color: #161616;
 }
 
 @keyframes random-color-in {
@@ -54,7 +59,7 @@
   width: 90%;
 }
 
-#my-name {
+.my-name {
   font-weight: bold;
   font-size: 40px;
   padding-bottom: 10px;
@@ -66,9 +71,24 @@
   white-space: nowrap;
 }
 
+.my-name-light {
+  border-color: #161616;
+  animation: blinkingCursorLight 550ms 5.7s 11 alternate forwards,
+  typing 4s 1s steps(23) normal both;
+}
+
 @keyframes blinkingCursor {
   from {
     border-color: #fff;
+  }
+  to {
+    border-color: transparent;
+  }
+}
+
+@keyframes blinkingCursorLight {
+  from {
+    border-color: #161616;
   }
   to {
     border-color: transparent;

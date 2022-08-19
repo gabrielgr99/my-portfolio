@@ -3,7 +3,7 @@
   justify-content: center;
 }
 
-#section-pictures {
+.section-pictures {
   display: flex;
   align-items: center;
   height: 380px;
@@ -14,31 +14,43 @@
   white-space: wrap;
 }
 
-#section-pictures::-webkit-scrollbar {
-  background-color: rgba(255, 255, 255, 0);
+.section-pictures::-webkit-scrollbar {
+  background-color: transparent;
   height: 6px;
   border-radius: 5px;
 }
 
-#section-pictures:hover::-webkit-scrollbar {
+.section-pictures:hover::-webkit-scrollbar {
   background-color: rgba(255, 255, 255, 0.11);
   height: 6px;
 }
 
-#section-pictures:hover::-webkit-scrollbar-thumb {
+.section-pictures-light:hover::-webkit-scrollbar {
+  background-color: rgba(0, 0, 0, 0.281);
+}
+
+.section-pictures:hover::-webkit-scrollbar-thumb {
   background-color: rgb(255, 255, 255);
 }
 
-#section-pictures::-webkit-scrollbar:active {
+.section-pictures-light:hover::-webkit-scrollbar-thumb {
+  background-color: rgb(0, 0, 0);
+}
+
+.section-pictures::-webkit-scrollbar:active {
   background-color: rgba(255, 255, 255, 0.322);
 }
 
-#section-pictures::-webkit-scrollbar-thumb {
+.section-pictures-light::-webkit-scrollbar:active {
+  background-color: rgba(0, 0, 0, 0.432);
+}
+
+.section-pictures::-webkit-scrollbar-thumb {
   background-color: rgba(255, 255, 255, 0);
   border-radius: 5px;
 }
 
-#section-pictures div {
+.section-pictures div {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -53,16 +65,16 @@
   -webkit-box-reflect: below 0 linear-gradient(transparent, transparent, transparent, transparent, rgba(255, 255, 255, 0.151));
 }
 
-#section-pictures div img {
+.section-pictures div img {
   width: 100px;
 }
 
-#section-pictures div h4 {
+.section-pictures div h4 {
   width: 150px;
   height: 50px;
 }
 
-#section-pictures div:hover {
+.section-pictures div:hover {
   animation: random-color 10s infinite alternate;
   transform: scale(1.1);
   transition: transform 1s;
@@ -72,7 +84,11 @@
   color: #fff;
 }
 
-#section-pictures div:hover img {
+.section-pictures-light div:hover {
+  color: #161616;
+}
+
+.section-pictures div:hover img {
   animation: float-image 3s infinite;
 }
 

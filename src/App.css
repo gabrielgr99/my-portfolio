@@ -12,11 +12,7 @@ html {
   height: 100%;
 }
 
-body {
-  height: 100%;
-}
-
-#root::before {
+body::before {
   position: absolute;
   z-index: 0;
   content: '';
@@ -25,11 +21,24 @@ body {
   background-color: #86dd15;
 }
 
-#root {
+.dark {
+  height: 100%;
   color: #c7c7c7;
   background-image: linear-gradient(rgb(29, 29, 29), rgb(15, 15, 15), rgb(0, 0, 0));
   background-repeat: no-repeat;
   background-attachment: fixed;
   font-family: monospace;
+}
+
+.light {
   height: 100%;
+  background-color: #eeeeee;
+  font-family: monospace;
+}
+
+button {
+  position: absolute;
+  right: 0;
+  width: 30px;
+  height: 30px;
 }

@@ -3,14 +3,14 @@ import Header from "../components/Header";
 import perfilImage from "../images/perfil-image-removebg.png";
 import "./About.css";
 
-export default function About() {
+export default function About({ value }) {
   return (
     <div>
       <Header />
-      <article id="img-container">
+      <article className={ `img-container img-container-${value}` }>
         <img id="img-perfil" src={ perfilImage } alt="Imagem de perfil" height="350" />
         <section>
-          <p className="about" id="my-name">Gabriel Gomes Rodrigues</p>
+          <p className={`about my-name my-name-${value}`}>Gabriel Gomes Rodrigues</p>
           <p className="about">22 anos</p>
           <p className="about">Uberlândia/MG</p>
           <p className="about">Sou desenvolvedor Front-End e estudo Desenvolvimento Web pela Trybe 
