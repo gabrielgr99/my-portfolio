@@ -3,11 +3,6 @@
   padding: 0;
 }
 
-*::selection {
-  background: rgb(255, 255, 255);
-  color: #000000;
-}
-
 html {
   height: 100%;
 }
@@ -30,6 +25,11 @@ html {
   font-family: monospace;
 }
 
+.dark *::selection {
+  background: #fff;
+  color: #000;
+}
+
 .light::before {
   position: absolute;
   z-index: 0;
@@ -47,9 +47,27 @@ html {
   font-family: monospace;
 }
 
-button {
+.light *::selection {
+  background: #000;
+  color: #fff;
+}
+
+span {
   position: absolute;
   right: 0;
   width: 30px;
   height: 30px;
+  margin: 20px 20px;
+}
+
+span:hover {
+  cursor: pointer;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
 }

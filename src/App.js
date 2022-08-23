@@ -21,13 +21,17 @@ function App() {
 
   return (
     <div>
-      <button onClick={ () => changeMode() }>{ mode }</button>
-        <Switch>
-          <Route exact path="/" component={ () => <About value={ mode } /> } />
-          <Route path="/projects" component={ () => <Projects value={ mode } /> } />
-          <Route path="/skills" component={ () => <Skills value={ mode } /> } />
-          <Route path="/contact" component={ () => <Contact value={ mode } /> } />
-        </Switch>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+      <span  onClick={ () => changeMode() } class="material-symbols-outlined">
+        sunny
+      </span>
+      <Switch>
+        <Route exact path="/" component={ () => <About value={ mode } /> } />
+        <Route path="/projects" component={ () => <Projects value={ mode } /> } />
+        <Route path="/skills" component={ () => <Skills value={ mode } /> } />
+        <Route path="/contact" component={ () => <Contact value={ mode } /> } />
+      </Switch>
     </div>
   );
 }
