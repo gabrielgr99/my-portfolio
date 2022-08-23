@@ -22,9 +22,13 @@
   content: '';
   width: 350px;
   height: 30px;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   transform: rotate(-45deg);
   top: -150px;
+}
+
+.project-item-light::before {
+  background-color: #86dd15;
 }
 
 .project-item:hover::before {
@@ -47,7 +51,6 @@
 }
 
 .project-item section {
-  background-color: #232513;
   z-index: 2;
   color: rgb(255, 255, 255);
   font-size: 30px;
@@ -55,6 +58,20 @@
   height: 260px;
   padding: 10px;
   border-radius: 5px;
+  border: 5px solid #6f00ff;
+}
+
+.project-item-light section {
+  color: #000;
+  border-color: #000;
+}
+
+.project-container:hover .project-item section {
+  background-color: #ffffff0e;
+}
+
+.project-container:hover .project-item-light section {
+  background-color: transparent;
 }
 
 .project-item p {

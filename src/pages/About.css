@@ -9,7 +9,7 @@
 
 .img-container-light {
   border-right-color: #000000;
-  color: #161616;
+  color: #000000;
 }
 
 @keyframes random-color-in {

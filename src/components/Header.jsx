@@ -1,15 +1,15 @@
 import { Link } from "react-router-dom";
 import "./Header.css";
 
-export default function Header() {
+export default function Header({ value }) {
   return (
     <header>
-      <div id="arrow-polygon"></div>
+      <div className={`arrow-polygon arrow-polygon-${ value }`}></div>
       <nav>
-        <p><Link id="tag-about" to="/" className="link" >Sobre</Link></p>
-        <p><Link to="/skills" className="link" >Skills</Link></p>
-        <p><Link to="/projects" className="link" >Projetos</Link></p>
-        <p><Link id="tag-contact" to="/contact" className="link" >Contato</Link></p>
+        <p><Link to="/" className={`link link-${ value } first-link`} >Sobre</Link></p>
+        <p><Link to="/skills" className={`link link-${ value }`} >Skills</Link></p>
+        <p><Link to="/projects" className={`link link-${ value }`} >Projetos</Link></p>
+        <p><Link to="/contact" className={`link link-${ value } last-link`} >Contato</Link></p>
       </nav>
     </header>
   )

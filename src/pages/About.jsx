@@ -6,7 +6,7 @@ import "./About.css";
 export default function About({ value }) {
   return (
     <div>
-      <Header />
+      <Header value={ value } />
       <article className={ `img-container img-container-${value}` }>
         <img id="img-perfil" src={ perfilImage } alt="Imagem de perfil" height="350" />
         <section>

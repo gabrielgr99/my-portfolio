@@ -12,7 +12,7 @@ html {
   height: 100%;
 }
 
-body::before {
+.dark::before {
   position: absolute;
   z-index: 0;
   content: '';
@@ -30,9 +30,20 @@ body::before {
   font-family: monospace;
 }
 
+.light::before {
+  position: absolute;
+  z-index: 0;
+  content: '';
+  width: 20px;
+  height: 100%;
+  background-color: #294207;
+}
+
 .light {
   height: 100%;
-  background-color: #eeeeee;
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(236, 236, 236), rgb(212, 212, 212));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   font-family: monospace;
 }
 

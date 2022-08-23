@@ -23,10 +23,10 @@ function App() {
     <div>
       <button onClick={ () => changeMode() }>{ mode }</button>
         <Switch>
-          <Route exact path="/" component={ () => <About value={mode} /> } />
-          <Route path="/projects" component={ Projects } />
-          <Route path="/skills" component={ () => <Skills value={mode} /> } />
-          <Route path="/contact" component={ Contact } />
+          <Route exact path="/" component={ () => <About value={ mode } /> } />
+          <Route path="/projects" component={ () => <Projects value={ mode } /> } />
+          <Route path="/skills" component={ () => <Skills value={ mode } /> } />
+          <Route path="/contact" component={ () => <Contact value={ mode } /> } />
         </Switch>
     </div>
   );
