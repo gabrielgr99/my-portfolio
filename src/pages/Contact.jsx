@@ -4,7 +4,7 @@ import "./Contact.css";
 
 export default function Contact({ value }) {
   return (
-    <div>
+    <main>
       <Header value={ value } />
       <article>
         <section className={`construction construction-${ value }`}>
@@ -13,6 +13,6 @@ export default function Contact({ value }) {
         </section>
       </article>
       <Footer />
-    </div>
+    </main>
   )
 }

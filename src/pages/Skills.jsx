@@ -13,7 +13,7 @@ import "./Skills.css";
 
 export default function Skills({ value }) {
   return (
-    <div>
+    <main>
       <Header value={ value } />
       <article id="pictures-learn">
         <section className={`section-pictures section-pictures-${value}`}>
@@ -56,6 +56,6 @@ export default function Skills({ value }) {
         </section>
       </article>
       <Footer />
-    </div>
+    </main>
   )
 }

@@ -6,7 +6,7 @@ import "./Projects.css";
 
 export default function Projects({ value }) {
   return (
-    <div>
+    <main>
       <Header value={ value } />
       <article id="project-list">
         <section className="project-container">
@@ -33,6 +33,6 @@ export default function Projects({ value }) {
         </section>
       </article>
       <Footer />
-    </div>
+    </main>
   )
 }
