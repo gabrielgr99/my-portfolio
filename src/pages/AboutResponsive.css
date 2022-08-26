@@ -1,0 +1,47 @@
+@media screen and (max-width: 1260px) {
+  .img-container {
+    animation: none;
+    border: none;
+  }
+}
+
+@media screen and (max-width: 935px) {
+  .img-container {
+    display: block;
+    text-align: center;
+    min-width: 320px;
+  }
+
+  #img-perfil {
+    margin: 0 auto;
+  }
+
+  .img-container section {
+    margin: 0 auto;
+    text-align: justify;
+    padding: 0 30px;
+  }
+
+  .my-name {
+    animation: none;
+    border: none;
+    width: inherit;
+    white-space: normal;
+    text-align: center;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .img-container img {
+    height: 0;
+  }
+
+  .about {
+    font-size: 15px;
+  }
+
+  .my-name {
+    font-size: 30px;
+  }
+}

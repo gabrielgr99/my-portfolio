@@ -1,4 +1,5 @@
 import "./Footer.css";
+import "./FooterResponsive.css";
 import icon from "../images/gIcon.png"; 
 
 export default function Footer() {

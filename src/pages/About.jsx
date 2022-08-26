@@ -2,6 +2,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import perfilImage from "../images/perfil-image-removebg.png";
 import "./About.css";
+import "./AboutResponsive.css";
 
 export default function About({ value }) {
   return (
