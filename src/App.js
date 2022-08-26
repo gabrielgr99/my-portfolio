@@ -20,7 +20,7 @@ function App() {
   }
 
   return (
-    <main>
+    <div>
       <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
       <span onClick={ () => changeMode() } class="material-symbols-outlined">
@@ -32,7 +32,7 @@ function App() {
         <Route path="/skills" component={ () => <Skills value={ mode } /> } />
         <Route path="/contact" component={ () => <Contact value={ mode } /> } />
       </Switch>
-    </main>
+    </div>
   );
 }
 
