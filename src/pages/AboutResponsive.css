@@ -48,7 +48,7 @@
 
 @media screen and (max-width: 935px) {
   .footer-content-about {
-    position: inherit;
+    position: relative;
     margin-top: 30px;
   }
 }

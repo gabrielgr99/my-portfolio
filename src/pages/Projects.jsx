@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import pixelArt from "../images/pixel-art-icon.svg";
 import toDoList from "../images/todo-list-icon.svg";
 import "./Projects.css";
+import "./ProjectsResponsive.css";
 
 export default function Projects({ value }) {
   return (
@@ -32,7 +33,7 @@ export default function Projects({ value }) {
           </a>
         </section>
       </article>
-      <Footer />
+      <Footer value='footer-content-projects' />
     </main>
   )
 }

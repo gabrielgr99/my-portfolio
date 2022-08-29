@@ -1,0 +1,12 @@
+@media screen and (max-width: 590px) {
+  #project-list {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .footer-content-projects {
+    position: relative;
+    margin-top: 30px;
+  }
+}
