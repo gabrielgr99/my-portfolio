@@ -11,7 +11,7 @@ export default function About({ value }) {
       <article className={ `img-container img-container-${value}` }>
         <img id="img-perfil" src={ perfilImage } alt="Imagem de perfil" height="350" />
         <section>
-          <p className={`about my-name my-name-${value}`}>Gabriel Gomes Rodrigues</p>
+          <p className={`my-name my-name-${value}`}>Gabriel Gomes Rodrigues</p>
           <p className="about">22 anos</p>
           <p className="about">Uberlândia/MG</p>
           <p className="about">Sou desenvolvedor Front-End e estudo Desenvolvimento Web pela Trybe 
