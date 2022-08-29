@@ -1,13 +1,14 @@
 import "./Footer.css";
 import icon from "../images/gIcon.png"; 
 
-export default function Footer() {
+export default function Footer({ value }) {
   const linkedinLogo = "https://img.icons8.com/color/48/undefined/linkedin.png";
   const githubLogo = "https://img.icons8.com/ios/50/FFFFFF/github--v1.png";
   const gIcon = "https://icons8.com/icon/80292/g";
   const icons = "https://icons8.com";
+
   return (
-    <footer id="footer-content">
+    <footer className={`footer-content ${ value }`}>
       <p>Feito por <strong>Gabriel Gomes Rodrigues</strong></p>
       <section>
         <a href="https://br.linkedin.com/in/gabrielgr" target="_blanked">

@@ -1,4 +1,4 @@
-#footer-content {
+.footer-content {
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -6,7 +6,7 @@
   font-style: italic;
 }
 
-#footer-content section {
+.footer-content section {
   display: flex;
   justify-content: center;
   align-items: center;

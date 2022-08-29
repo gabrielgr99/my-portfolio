@@ -20,7 +20,7 @@ export default function About({ value }) {
           </p>
         </section>
       </article>
-      <Footer />
+      <Footer value='footer-content-about' />
     </main>
   )
 }
