@@ -45,3 +45,10 @@
     font-size: 30px;
   }
 }
+
+@media screen and (max-width: 935px) {
+  #footer-content {
+    position: inherit;
+    margin-top: 30px;
+  }
+}
