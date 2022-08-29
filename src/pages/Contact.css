@@ -3,26 +3,37 @@
   flex-direction: column;
   align-items: center;
   margin: 70px auto 207px;
-  width: 400px;
+  width: 75%;
 }
 
-.construction h3 {
-  font-size: xx-large;
+.construction section h3 {
+  font-size: 26px;
   color: rgb(202, 39, 39);
   text-align: center;
-  padding: 5px 0;
+  padding: 5px 30px;
   margin-bottom: 50px;
+  margin-left: 20px;
   background-color: #0c0c0c;
-  width: 400px;
   border-radius: 5px;
 }
 
-.construction p {
-  text-align: justify;
+.construction section p {
+  text-align: center;
   font-size: 25px;
   color: #fff;
+  padding: 0 30px;
 }
 
-.construction-light p {
+.construction-light section p {
   color: #000;
+}
+
+@media screen and (max-width: 420px) {
+  .construction section h3 {
+    font-size: x-large;
+  }
+
+  .construction section p {
+    font-size: 20px;
+  }
 }
