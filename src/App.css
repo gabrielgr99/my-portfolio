@@ -8,8 +8,7 @@ html {
 }
 
 .dark::before {
-  position: absolute;
-  z-index: 0;
+  position: fixed;
   content: '';
   width: 20px;
   height: 100%;
@@ -31,8 +30,7 @@ html {
 }
 
 .light::before {
-  position: absolute;
-  z-index: 0;
+  position: fixed;
   content: '';
   width: 20px;
   height: 100%;
