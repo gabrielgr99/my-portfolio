@@ -1,14 +1,6 @@
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import cssLogo from "../images/css-logo.png";
-import htmlLogo from "../images/html-logo.png";
-import javaScriptLogo from "../images/javaScript-logo.png";
-import jsonLogo from "../images/JSON-logo.svg";
-import pythonLogo from "../images/python-logo.png";
-import reactLogo from "../images/react-logo.png";
-import reduxLogo from "../images/redux-logo.png";
-import rtlLogo from "../images/rtl-logo.png";
-import jestLogo from "../images/jest-logo.png";
+import skills from "../data/skills";
 import "./Skills.css";
 import AppContext from "../context/AppContext";
 import { useContext } from "react";
@@ -21,9 +13,21 @@ export default function Skills() {
       <Header />
       <article id="pictures-learn">
         <section className={`section-pictures section-pictures-${mode}`}>
-          <div>
-            <img className="gallery-img" alt="Logo CSS" src={ cssLogo } />
-            <h4>CSS</h4>
+
+          {
+            skills.map((skill) => {
+              return (
+                <div>
+                  <img alt={ skill.alt } src={ skill.src } />
+                  <h4>{ skill.name }</h4>
+                </div>
+              );
+            })
+          }
+
+          {/* <div>
+            <img className="gallery-img" alt="Logo CSS" src={ skills[0].src } />
+            <h4>{ skills[0].name }</h4>
           </div>
           <div>
             <img className="gallery-img" alt="Logo HTML" src={ htmlLogo } />
@@ -56,7 +60,7 @@ export default function Skills() {
           <div>
             <img className="gallery-img" alt="Logo Python" src={ jestLogo } />
             <h4>JEST</h4>
-          </div>
+          </div> */}
         </section>
       </article>
       <Footer />
