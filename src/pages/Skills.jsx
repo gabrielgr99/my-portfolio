@@ -10,13 +10,17 @@ import reduxLogo from "../images/redux-logo.png";
 import rtlLogo from "../images/rtl-logo.png";
 import jestLogo from "../images/jest-logo.png";
 import "./Skills.css";
+import AppContext from "../context/AppContext";
+import { useContext } from "react";
 
-export default function Skills({ value }) {
+export default function Skills() {
+  const mode = useContext(AppContext);
+
   return (
     <main>
-      <Header value={ value } />
+      <Header />
       <article id="pictures-learn">
-        <section className={`section-pictures section-pictures-${value}`}>
+        <section className={`section-pictures section-pictures-${mode}`}>
           <div>
             <img className="gallery-img" alt="Logo CSS" src={ cssLogo } />
             <h4>CSS</h4>

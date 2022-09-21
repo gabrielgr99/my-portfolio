@@ -5,6 +5,7 @@ import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 document.getElementsByTagName('body')[0].id = 'body';
+document.getElementById('body').className = 'dark';
 root.render(
   <React.StrictMode>
     <BrowserRouter>

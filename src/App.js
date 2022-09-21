@@ -5,6 +5,7 @@ import Projects from './pages/Projects';
 import Skills from './pages/Skills';
 import Contact from './pages/Contact';
 import { useState } from 'react';
+import AppContext from './context/AppContext';
 
 function App() {
   const [mode, setMode] = useState('dark');
@@ -20,19 +21,21 @@ function App() {
   }
 
   return (
-    <div>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <AppContext.Provider value={ mode }>
+      <div>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-      <span onClick={ () => changeMode() } class="material-symbols-outlined">
-        sunny
-      </span>
-      <Switch>
-        <Route exact path="/" component={ () => <About value={ mode } /> } />
-        <Route path="/projects" component={ () => <Projects value={ mode } /> } />
-        <Route path="/skills" component={ () => <Skills value={ mode } /> } />
-        <Route path="/contact" component={ () => <Contact value={ mode } /> } />
-      </Switch>
-    </div>
+        <span onClick={ () => changeMode() } className="material-symbols-outlined">
+          sunny
+        </span>
+        <Switch>
+          <Route exact path="/" component={ () => <About /> } />
+          <Route path="/projects" component={ () => <Projects /> } />
+          <Route path="/skills" component={ () => <Skills /> } />
+          <Route path="/contact" component={ () => <Contact /> } />
+        </Switch>
+      </div>
+    </AppContext.Provider>
   );
 }
 
