@@ -22,10 +22,6 @@ header nav {
   transition: 0.8s;
 }
 
-.link-light {
-  background-color: #294207;
-}
-
 .first-link {
   border-top: 2px solid #fff;
 }
@@ -50,23 +46,17 @@ a {
   width: 30px;
   height: 40px;
   clip-path: polygon(0 50%, 50% 0, 60% 0, 10% 50%, 60% 100%, 50% 100%);
-  animation-name: arrow-move-dark;
   animation-duration: 1s;
   animation-iteration-count: 6;
   animation-direction: alternate;
 }
 
+.arrow-polygon-dark {
+  animation-name: arrow-move-dark;
+}
+
 .arrow-polygon-light {
-  position: absolute;
-  margin: 84px 0 0 87px;
-  background-color: transparent;
-  width: 30px;
-  height: 40px;
-  clip-path: polygon(0 50%, 50% 0, 60% 0, 10% 50%, 60% 100%, 50% 100%);
   animation-name: arrow-move-light;
-  animation-duration: 1s;
-  animation-iteration-count: 6;
-  animation-direction: alternate;
 }
 
 @keyframes arrow-move-dark {

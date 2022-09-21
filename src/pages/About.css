@@ -4,8 +4,13 @@
   min-width: 935px;
   margin-inline: auto;
   justify-content: center;
-  border-right: 3px solid #fff;
+  border-right: 3px solid;
   animation: random-color-in 10s infinite alternate;
+}
+
+.img-container-dark {
+  border-right-color: #fff;
+  color: #fff;
 }
 
 .img-container-light {
@@ -65,11 +70,15 @@
   font-size: 40px;
   padding: 0 0 10px 35px;
   width: max-content;
-  animation: blinkingCursor 550ms 5.7s 11 alternate forwards,
-  typing 4s 1s steps(23) normal both;
   border-right: 2px solid;
   overflow: hidden;
   white-space: nowrap;
+}
+
+.my-name-dark {
+  border-color: #fff;
+  animation: blinkingCursorDark 550ms 5.7s 11 alternate forwards,
+  typing 4s 1s steps(23) normal both;
 }
 
 .my-name-light {
@@ -78,7 +87,7 @@
   typing 4s 1s steps(23) normal both;
 }
 
-@keyframes blinkingCursor {
+@keyframes blinkingCursorDark {
   from {
     border-color: #fff;
   }

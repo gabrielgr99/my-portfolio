@@ -23,9 +23,12 @@
   content: '';
   width: 350px;
   height: 30px;
-  background-color: rgb(255, 255, 255);
   transform: rotate(-45deg);
   top: -150px;
+}
+
+.project-item-dark::before {
+  background-color: #fff;
 }
 
 .project-item-light::before {
@@ -53,13 +56,17 @@
 
 .project-item section {
   z-index: 2;
-  color: rgb(255, 255, 255);
   font-size: 30px;
   width: 190px;
   height: 260px;
   padding: 10px;
   border-radius: 5px;
-  border: 5px solid #6f00ff;
+  border: 5px solid;
+}
+
+.project-item-dark section {
+  color: #fff;
+  border-color: #6f00ff;
 }
 
 .project-item-light section {
@@ -67,12 +74,8 @@
   border-color: #000;
 }
 
-.project-container:hover .project-item section {
+.project-container:hover .project-item-dark section {
   background-color: #ffffff0e;
-}
-
-.project-container:hover .project-item-light section {
-  background-color: transparent;
 }
 
 .project-item p {

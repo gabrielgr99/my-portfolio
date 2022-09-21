@@ -4,7 +4,7 @@ import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-document.getElementsByTagName('body')[0].className = 'dark';
+document.getElementsByTagName('body')[0].id = 'body';
 root.render(
   <React.StrictMode>
     <BrowserRouter>

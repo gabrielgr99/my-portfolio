@@ -1,4 +1,4 @@
-.construction {
+.contact {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -6,7 +6,7 @@
   width: 75%;
 }
 
-.construction section h3 {
+.contact section h3 {
   font-size: 26px;
   color: rgb(202, 39, 39);
   text-align: center;
@@ -17,23 +17,26 @@
   border-radius: 5px;
 }
 
-.construction section p {
+.contact section p {
   text-align: center;
   font-size: 25px;
-  color: #fff;
   padding: 0 30px;
 }
 
-.construction-light section p {
+.contact-dark section p {
+  color: #fff;
+}
+
+.contact-light section p {
   color: #000;
 }
 
 @media screen and (max-width: 420px) {
-  .construction section h3 {
+  .contact section h3 {
     font-size: x-large;
   }
 
-  .construction section p {
+  .contact section p {
     font-size: 20px;
   }
 }

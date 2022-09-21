@@ -23,11 +23,11 @@ export default function Skills({ value }) {
           </div>
           <div>
             <img className="gallery-img" alt="Logo HTML" src={ htmlLogo } />
-            <h4>HTML {"(Responsivo, Semântico)"}</h4>
+            <h4>HTML (Responsivo, Semântico)</h4>
           </div>
           <div>
             <img className="gallery-img" alt="Logo JavaScript" src={ javaScriptLogo } />
-            <h4>JAVASCRIPT {"(APIs)"}</h4>
+            <h4>JAVASCRIPT (APIs)</h4>
           </div>
           <div>
             <img className="gallery-img" alt="Logo JSON" src={ jsonLogo } />
@@ -39,7 +39,7 @@ export default function Skills({ value }) {
           </div>
           <div>
             <img className="gallery-img" alt="Logo Python" src={ reactLogo } />
-            <h4>REACT {"(Hooks, Context API)"}</h4>
+            <h4>REACT (Hooks, Context API)</h4>
           </div>
           <div>
             <img className="gallery-img" alt="Logo Python" src={ reduxLogo } />

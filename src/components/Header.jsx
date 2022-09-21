@@ -6,10 +6,10 @@ export default function Header({ value }) {
     <header>
       <div className={`arrow-polygon arrow-polygon-${ value }`}></div>
       <nav>
-        <p><Link to="/" className={`link link-${ value } first-link`} >Sobre</Link></p>
-        <p><Link to="/skills" className={`link link-${ value }`} >Skills</Link></p>
-        <p><Link to="/projects" className={`link link-${ value }`} >Projetos</Link></p>
-        <p><Link to="/contact" className={`link link-${ value } last-link`} >Contato</Link></p>
+        <p><Link to="/" className={`link first-link`} >Sobre</Link></p>
+        <p><Link to="/skills" className={`link`} >Skills</Link></p>
+        <p><Link to="/projects" className={`link`} >Projetos</Link></p>
+        <p><Link to="/contact" className={`link last-link`} >Contato</Link></p>
       </nav>
     </header>
   )
