@@ -22,17 +22,32 @@ header nav {
   transition: 0.8s;
 }
 
-.first-link {
+.link:hover {
+  padding-left: 130px;
+}
+
+.link-light:hover {
+  color: #000;
+}
+
+.link-dark:hover {
+  color: #fff;
+}
+
+.first-link-light {
+  border-top: 2px solid #000;
+}
+
+.first-link-dark {
   border-top: 2px solid #fff;
 }
 
-.last-link {
-  border-bottom: 2px solid #fff;
+.last-link-light {
+  border-bottom: 2px solid #000;
 }
 
-p a:hover {
-  padding-left: 130px;
-  color: #fff;
+.last-link-dark {
+  border-bottom: 2px solid #fff;
 }
 
 a {
