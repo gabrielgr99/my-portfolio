@@ -30,6 +30,11 @@
     text-align: center;
     line-height: 40px;
   }
+
+  .footer-content-about {
+    position: relative;
+    margin-top: 30px;
+  }
 }
 
 @media screen and (max-width: 365px) {
@@ -43,12 +48,5 @@
 
   .my-name {
     font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 935px) {
-  .footer-content-about {
-    position: relative;
-    margin-top: 30px;
   }
 }

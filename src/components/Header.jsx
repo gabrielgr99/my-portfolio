@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import "./Header.css";
+import "./HeaderResponsive.css";
 import AppContext from "../context/AppContext";
 import { useContext } from "react";
 
