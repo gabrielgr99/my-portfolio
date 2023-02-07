@@ -11,6 +11,8 @@ import dockerLogo from "../images/skills/docker-logo.png";
 import mysqlLogo from "../images/skills/mysql-logo.png";
 import nodejsLogo from "../images/skills/nodejs-logo.png";
 import sequelizeLogo from "../images/skills/sequelize-logo.png";
+import mongodbLogo from "../images/skills/mongodb-logo.png";
+import seleniumLogo from "../images/skills/selenium-logo.png";
 
 const skills = [
   {
@@ -24,9 +26,9 @@ const skills = [
     src: htmlLogo
   },
   {
-    name: "JAVASCRIPT (APIs)",
+    name: "JAVASCRIPT (APIs REST, POO, SOLID)",
     alt: "javascript logo",
-    src:javaScriptLogo
+    src: javaScriptLogo
   },
   {
     name: "JSON (Json Web Token)",
@@ -34,7 +36,7 @@ const skills = [
     src: jsonLogo
   },
   {
-    name: "PYTHON",
+    name: "PYTHON (POO, Raspagem de dados)",
     alt: "python logo",
     src: pythonLogo
   },
@@ -69,7 +71,7 @@ const skills = [
     src: mysqlLogo
   },
   {
-    name: "NODE.JS (API RESTful, Testes)",
+    name: "NODE.JS (Express, Testes)",
     alt: "node.js logo",
     src: nodejsLogo
   },
@@ -77,6 +79,16 @@ const skills = [
     name: "SEQUELIZE",
     alt: "sequelize logo",
     src: sequelizeLogo
+  },
+  {
+    name: "MONGODB",
+    alt: "mongodb logo",
+    src: mongodbLogo
+  },
+  {
+    name: "SELENIUM",
+    alt: "selenium logo",
+    src: seleniumLogo
   }
 ];
 
