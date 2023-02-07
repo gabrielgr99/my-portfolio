@@ -25,42 +25,6 @@ export default function Skills() {
             })
           }
 
-          {/* <div>
-            <img className="gallery-img" alt="Logo CSS" src={ skills[0].src } />
-            <h4>{ skills[0].name }</h4>
-          </div>
-          <div>
-            <img className="gallery-img" alt="Logo HTML" src={ htmlLogo } />
-            <h4>HTML (Responsivo, Semântico)</h4>
-          </div>
-          <div>
-            <img className="gallery-img" alt="Logo JavaScript" src={ javaScriptLogo } />
-            <h4>JAVASCRIPT (APIs)</h4>
-          </div>
-          <div>
-            <img className="gallery-img" alt="Logo JSON" src={ jsonLogo } />
-            <h4>JSON</h4>
-          </div>
-          <div>
-            <img className="gallery-img" alt="Logo Python" src={ pythonLogo } />
-            <h4>PYTHON</h4>
-          </div>
-          <div>
-            <img className="gallery-img" alt="Logo Python" src={ reactLogo } />
-            <h4>REACT (Hooks, Context API)</h4>
-          </div>
-          <div>
-            <img className="gallery-img" alt="Logo Python" src={ reduxLogo } />
-            <h4>REDUX</h4>
-          </div>
-          <div>
-            <img className="gallery-img" alt="Logo Python" src={ rtlLogo} />
-            <h4>REACT TESTING LIBRARY</h4>
-          </div>
-          <div>
-            <img className="gallery-img" alt="Logo Python" src={ jestLogo } />
-            <h4>JEST</h4>
-          </div> */}
         </section>
       </article>
       <Footer />
