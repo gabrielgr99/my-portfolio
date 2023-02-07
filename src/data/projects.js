@@ -7,6 +7,10 @@ import allForOneLogo from "../images/projects/all-for-one-logo.png";
 import oneForAllLogo from "../images/projects/one-for-all-logo.png";
 import talkerManagerLogo from "../images/projects/talker-manager-logo.png";
 import storeManagerLogo from "../images/projects/store-manager-logo.png";
+import apuracaoVotosLogo from "../images/projects/apuracao-votos-logo.png";
+import colorGuessLogo from "../images/projects/color-guess-logo.png";
+import memeGeneratorLogo from "../images/projects/meme-generator-logo.png";
+import walletLogo from "../images/projects/wallet-logo.png";
 
 const projects = [
   {
@@ -71,6 +75,34 @@ const projects = [
     src: storeManagerLogo,
     alt: "store-manager logo",
     technologies: [ 'JavaScript', 'API RESTful MSC', 'MySQL', 'Testes (Chai, Sinon, Sinon-Chai)' ]
+  },
+  {
+    name: "Apuração de Votos",
+    href: "https://github.com/gabrielgr99/projeto-apuracao-votos",
+    src: apuracaoVotosLogo,
+    alt: "apuração-votos logo",
+    technologies: [ 'JavaScript', 'Python', 'JSON', 'React', 'CSS' ]
+  },
+  {
+    name: "Color Guess",
+    href: "https://github.com/gabrielgr99/project-color-guess",
+    src: colorGuessLogo,
+    alt: "color-guess logo",
+    technologies: [ 'HTML', 'CSS (Tailwind)', 'JavaScript' ]
+  },
+  {
+    name: "Meme Generator",
+    href: "https://github.com/gabrielgr99/project-meme-generator",
+    src: memeGeneratorLogo,
+    alt: "meme-generator logo",
+    technologies: [ 'HTML', 'CSS (Tailwind)', 'JavaScript' ]
+  },
+  {
+    name: "Wallet",
+    href: "https://github.com/gabrielgr99/project-wallet",
+    src: walletLogo,
+    alt: "wallet logo",
+    technologies: [ 'React (Redux, RTL)', 'CSS (Tailwind)', 'JavaScript', 'ESLint', 'Jest' ]
   }
 ];
 
