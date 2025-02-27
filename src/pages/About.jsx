@@ -16,12 +16,7 @@ export default function About() {
         <img id="img-perfil" src={ perfilImage } alt="Imagem de perfil" height="350" />
         <section>
           <p className={`my-name my-name-${ mode }`}>Gabriel Gomes Rodrigues</p>
-          <p className="about">22 anos</p>
-          <p className="about">Uberlândia/MG</p>
-          <p className="about">Sou desenvolvedor Full-Stack e formado em Engenharia Ambiental 
-            pela Universidade Federal de Uberlândia. Busco me tornar reconhecido pelo meu trabalho,
-            e para isso pretendo melhorar cada vez mais a qualidade dos meus códigos, deixando eles 
-            mais limpos e de fácil interpretação.
+          <p className="about">Sou desenvolvedor Front-End. Tenho como objetivo alcançar nível de senioridade máxima HTML, JavaScript e CSS, e consequentemente extendendo aos frameworks e tecnologias que eu estiver atuando. Desejo também conhecer novas tecnologias além de ReactJS, NextJS e outras que utilizo atualmente.
           </p>
         </section>
       </article>

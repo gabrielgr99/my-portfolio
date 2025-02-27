@@ -13,6 +13,11 @@ import nodejsLogo from "../images/skills/nodejs-logo.png";
 import sequelizeLogo from "../images/skills/sequelize-logo.png";
 import mongodbLogo from "../images/skills/mongodb-logo.png";
 import seleniumLogo from "../images/skills/selenium-logo.png";
+import axiosLogo from "../images/skills/axios-logo.png";
+import gitLogo from "../images/skills/git-logo.png";
+import gitlabLogo from "../images/skills/gitlab-logo.png";
+import nextLogo from "../images/skills/next-logo.png";
+import prismaLogo from "../images/skills/prisma-logo.png";
 
 const skills = [
   {
@@ -89,6 +94,31 @@ const skills = [
     name: "SELENIUM",
     alt: "selenium logo",
     src: seleniumLogo
+  },
+  {
+    name: "Axios",
+    alt: "axios logo",
+    src: axiosLogo
+  },
+  {
+    name: "GIT",
+    alt: "git logo",
+    src: gitLogo
+  },
+  {
+    name: "GITLAB",
+    alt: "gitlab logo",
+    src: gitlabLogo
+  },
+  {
+    name: "NEXT JS",
+    alt: "next logo",
+    src: nextLogo
+  },
+  {
+    name: "PRISMA",
+    alt: "prisma logo",
+    src: prismaLogo
   }
 ];
 

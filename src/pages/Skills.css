@@ -64,7 +64,9 @@
 }
 
 .section-pictures div img {
-  height: 90px;
+  max-height: 90px;
+  max-width: 160px;
+  /* aspect-ratio: ; */
 }
 
 .section-pictures div h4 {
